@@ -1,16 +1,31 @@
-# widgets_exercise
+# Spotify Clone
 
-A new Flutter project.
+## Description
 
-## Getting Started
+Spotify Clone is an educational project that simulates the functionalities of the popular music application Spotify. The project is created using Flutter and aims to learn and experiment with Flutter features and widget integrations.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Music Player**: Allows playback of music from a list of tracks.
+- **Track Navigation**: Navigate to the previous or next track using buttons.
+- **Progress Slider**: Control the playback progress of the track.
+- **Repeat Mode Toggle**: Enable or disable repeat mode for the current track.
+- **Favorites Button**: Mark tracks as favorite.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Mockups
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Loading Screen
+
+![Loading Screen](https://github.com/amadejsky/Resources/blob/main/Mockup/loadingScreen.png)
+
+### Music Player with Next and Previous Track Functionality
+
+![Music Player with Next and Previous Track Functionality](https://github.com/amadejsky/Resources/blob/main/Mockup/MusicPLayerWithNextAndPrevWorking.png)
+
+![Music Player with Movable Slider](https://github.com/amadejsky/Resources/blob/main/Mockup/MusicPlayerWithMovableSlider.png)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/amadejsky/SpotifyClone.git
