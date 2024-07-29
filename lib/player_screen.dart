@@ -87,9 +87,13 @@ void _nextSong() {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Spacer(),
-              Image.asset(
-                'assets/images/song${currentIndex}.png',
-                width: 390,
+              Container(
+                width: 428,
+                height: 428,
+                child: Image.asset(
+                  'assets/images/song${currentIndex}.png',
+                  fit: BoxFit.cover,
+                ),
               ),
               const SizedBox(
                 height: 16,
